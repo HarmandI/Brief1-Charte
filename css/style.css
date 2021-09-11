@@ -1,0 +1,59 @@
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 25px;
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  z-index: 1;
+}
+
+body {
+  background-color: #f3f7f7;
+}
+
+ul {
+  display: none;
+}
+
+li {
+  list-style-image: url("../images/bullet.png");
+}
+.containerreusite,
+.containervivreensemble,
+.containercovid,
+.containerfun {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 1em gray;
+  margin-bottom: 30px;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.random {
+  display: block;
+  margin: auto;
+}
+
+.accordeon {
+  position: absolute;
+  right: 20px;
+  padding: 0 18px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.active {
+  display: block;
+}
+
+.reduire {
+  transition: max-height 0.2s ease-out;
+}
