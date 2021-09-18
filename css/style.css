@@ -37,7 +37,7 @@ main {
   margin-left: 10%;
   margin-right: 10%;
 }
-.random {
+.random,.button-primary {
   display: block;
   margin: auto;
 }
@@ -48,6 +48,7 @@ main {
   padding: 0 18px;
   background-color: rgb(255, 255, 255);
   overflow: hidden;
+  cursor: pointer;
 }
 
 .active {
